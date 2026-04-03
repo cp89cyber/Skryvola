@@ -1,0 +1,11 @@
+[package]
+name = "skryvola"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gio = "0.18"
+glib = "0.18"
+gtk = "0.18"
+url = "2"
+webkit2gtk = { version = "2.0.2", features = ["v2_16"] }
